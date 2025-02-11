@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
+// import Register from '../register/components/Register';
 // import LoginButton from './LoginButton';
 
 const Navbar = () => {
@@ -19,6 +20,7 @@ const Navbar = () => {
                 <Link href="/meals"><li>Meals</li></Link>
                 <Link href="/products"><li>Products</li></Link>
                 <Link href="/products/add"><li>Add Products</li></Link>
+                <Link href="/register"><li>Register</li></Link>
                 
               </ul>
             </nav>  
